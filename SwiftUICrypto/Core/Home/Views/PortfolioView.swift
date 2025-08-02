@@ -36,7 +36,7 @@ struct PortfolioView: View {
                 }
             })
             .onChange(of: vm.searchText, perform: { value in
-                if value == ""{
+                if value == ""  {
                     removeSelectedCoin()
                 }
             })
@@ -85,7 +85,7 @@ extension PortfolioView {
            let amount = portfolioCoin.currentHoldings {
             quantityText = "\(amount)"
         } else {
-            quantityText = "
+            quantityText = ""
         }
     }
     
