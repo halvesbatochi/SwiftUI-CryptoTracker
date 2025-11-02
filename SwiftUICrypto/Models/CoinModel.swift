@@ -50,7 +50,7 @@ struct CoinModel: Identifiable, Codable {
         case atlChangePercentage = "atl_change_percentage"
         case atlDate = "atl_date"
         case lastUpdated = "last_updated"
-        case sparklineIn7D = "sparkline_in_7D"
+        case sparklineIn7D = "sparkline_in_7d"
         case priceChangePercentage24HInCurrency = "price_change_percentage_24h_in_currency"
         case currentHoldings
     }
